@@ -1,0 +1,17 @@
+.urun2-container{
+  display: none;
+  width: 100%;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.top-nav, .menu-urun, .dropdown{
+  z-index: 1;
+}
+.urun-adi{
+  text-align: left;
+  margin-left: 10%;
+}
+.pc{
+  margin-left: 5%;
+}
