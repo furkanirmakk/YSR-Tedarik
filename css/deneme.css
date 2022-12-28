@@ -31,8 +31,8 @@
 }
 
 #search-app {
-    width: 1200px;
-    margin: 0 auto
+    width: 1450px;
+    margin-left: 17%;
 }
 
 #search-app .search-app-container {
@@ -253,6 +253,7 @@
 .prdct-cntnr-wrppr {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .srch-ttl-cntnr-wrppr {
