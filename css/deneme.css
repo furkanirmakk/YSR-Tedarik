@@ -281,6 +281,7 @@
 
 
 .image-overlay {
+    
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -290,6 +291,7 @@
     padding: 5px;
     left: 0;
     top: 0
+
 }
 
 .image-overlay .image-overlay-header {
@@ -551,7 +553,105 @@ nav ul.main-nav li.tab-link a.category-header {
     box-sizing: border-box
 }
 
+
+.listem{
+    text-align:center;
+    text-align:justify;
+    margin-left: 20%;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: source_sans_prosemibold, sans-serif;
+    display: inline-block;
+    color: black;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 0% !important;
+    margin-top: 0% !important;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+li a:hover, .menu:hover {
+    background-color: #FF9642;
+}
+
+li.menu {
+    display: inline-block;
+}
+
+.acilir-menu {
+
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+}
+
+.acilir-menu a {
+    display: block;
+    text-align: left;
+}
+
+.acilir-menu a:hover {
+    color: black;
+}
+
+.menu:hover .acilir-menu {
+    display: block;
+}
+
+.aktif {
+    background-color: #FF9642;
+    color: white;
+}
+
+.listem .sub-nav-center {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.listem .sub-nav-center .sub-nav-outer {
+    overflow: hidden;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listem .normal-column {
+    width: auto;
+    height: 300px;
+    float: left;
+    padding: 0 25px 0 1px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.listem .normal-column .category-box .sub-item-list {
+    padding: 0;
+    margin: 5px 0 0 0;
+    list-style: none;
+}
+
+
+
 .sub-navv {
+    
     display: none;
     position: absolute;
     width: 100%;
@@ -561,7 +661,7 @@ nav ul.main-nav li.tab-link a.category-header {
     box-shadow: inset 0 0 1px 1px #ebebeb;
     border-radius: 0 0 6px 6px;
     overflow: hidden;
-}
+}   
 .sub-navv:hover {
     display: block;
     color: #000;
@@ -771,6 +871,19 @@ a {
 .fltr-item-wrppr{
     color: #535353;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
