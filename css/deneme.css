@@ -555,6 +555,8 @@ nav ul.main-nav li.tab-link a.category-header {
 
 
 .listem{
+    
+    
     text-align:center;
     text-align:justify;
     margin-left: 20%;
@@ -571,7 +573,7 @@ ul {
 }
 
 li {
-    float: left;
+    float:left;
 }
 
 li a {
@@ -584,7 +586,7 @@ li a {
     margin-top: 0% !important;
     padding: 14px 16px;
     text-decoration: none;
-    text-transform: uppercase;
+    
     
 }
 
@@ -597,11 +599,12 @@ li.menu {
 }
 
 .acilir-menu {
-
+    width: 100%;
     display: none;
-    position: absolute;
+    position:absolute;
     background-color: white;
-    min-width: 160px;
+    
+    z-index: 4;
 }
 
 .acilir-menu a {
@@ -622,34 +625,15 @@ li.menu {
     color: white;
 }
 
-.listem .sub-nav-center {
-    overflow: hidden;
-    box-sizing: border-box;
-    width: 100%;
+.alt-menu{
+    font-size: x-small;
+    text-transform: capitalize !important;
 }
 
-.listem .sub-nav-center .sub-nav-outer {
-    overflow: hidden;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
+.ust-menu{
+   
+    text-transform: uppercase !important;
 }
-
-.listem .normal-column {
-    width: auto;
-    height: 300px;
-    float: left;
-    padding: 0 25px 0 1px;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-.listem .normal-column .category-box .sub-item-list {
-    padding: 0;
-    margin: 5px 0 0 0;
-    list-style: none;
-}
-
-
 
 .sub-navv {
     
@@ -872,22 +856,5 @@ a {
 .fltr-item-wrppr{
     color: #535353;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
