@@ -555,8 +555,6 @@ nav ul.main-nav li.tab-link a.category-header {
 
 
 .listem{
-    
-    
     text-align:center;
     text-align:justify;
     margin-left: 20%;
@@ -599,11 +597,10 @@ li.menu {
 }
 
 .acilir-menu {
-    width: 100%;
+    width: 45%;
     display: none;
     position:absolute;
     background-color: white;
-    
     z-index: 4;
 }
 
@@ -631,7 +628,6 @@ li.menu {
 }
 
 .ust-menu{
-   
     text-transform: uppercase !important;
 }
 
