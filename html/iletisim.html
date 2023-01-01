@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YSR Tedarik</title>
-    
-    <link rel="stylesheet" href="../css/iletisim.csss">
-    
+
+    <link rel="stylesheet" href="../css/iletisim.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,33 +30,123 @@
 </head>
 
 <body>
-    
-
     <div class=" container1">
-        
-        
+
+
         <iframe class="harita1"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12043.892029034443!2d29.0738537!3d41.003964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d3d4a8a6f01e62a!2zRU1SRSDEsExFVMSwxZ7EsE0!5e0!3m2!1str!2str!4v1668011809608!5m2!1str!2str"
-            style="border:0; width: 39%; height: 30vw;margin-left: 10%;" 
-            allowfullscreen="" loading="lazy"
+            style="border:0; width: 39%; height: 30vw;margin-left: 10%;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
         <iframe class="harita2"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12043.892029034443!2d29.0738537!3d41.003964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d3d4a8a6f01e62a!2zRU1SRSDEsExFVMSwxZ7EsE0!5e0!3m2!1str!2str!4v1668011809608!5m2!1str!2str"
-            style="border:0; width: 39%; height: 30vw;margin-right: 10%;"
-             allowfullscreen="" loading="lazy"
+            style="border:0; width: 39%; height: 30vw;margin-right: 10%;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </div>
+    <!--Section: Contact v.2-->
+    <section id="contact" class="contact">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+            <div class="row">
+
+                <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="info">
+                        <div class="address">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h4>Konum:</h4>
+                            <p>Koyunoğlu Mah. Koyunoğlu Cad. No:91/A Yesilyurt/Malatya</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="fa fa-envelope"></i>
+                            <h4>Email:</h4>
+                            <p><a href="mailto:support@company.com">ysrtedarik@gmail.com</a></p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="fa fa-phone"></i>
+                            <h4>Telefon:</h4>
+                            <p>+90 532 324 22 63</p>
+                        </div>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12043.892029034443!2d29.0738537!3d41.003964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d3d4a8a6f01e62a!2zRU1SRSDEsExFVMSwxZ7EsE0!5e0!3m2!1str!2str!4v1668011809608!5m2!1str!2str"
+                            frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen="">
+                        </iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12043.892029034443!2d29.0738537!3d41.003964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d3d4a8a6f01e62a!2zRU1SRSDEsExFVMSwxZ7EsE0!5e0!3m2!1str!2str!4v1668011809608!5m2!1str!2str"
+                            frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen="">
+                        </iframe>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-5 mt-lg-0 d-flex align-items-stretch">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Adınız</label>
+                                <input type="text" name="name" class="form-control" id="name" required="">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="name">Emailiniz</label>
+                                <input type="email" class="form-control" name="email" id="email" required="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Konu</label>
+                            <input type="text" class="form-control" name="subject" id="subject" required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Mesajınız</label>
+                            <textarea class="form-control" name="message" rows="10" required=""></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Yükleniyor</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Mesajınız gönderildi. Teşekkürler!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Mesajı gönder</button></div>
+                    </form>
+                </div>
+                <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="info">
+                        <div class="address">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h4>Konum:</h4>
+                            <p>Koyunoğlu Mah. Koyunoğlu Cad. No:91/A Yesilyurt/Malatya</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="fa fa-envelope"></i>
+                            <h4>Email:</h4>
+                            <p><a href="mailto:support@company.com">ysrtedarik@gmail.com</a></p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="fa fa-phone"></i>
+                            <h4>Telefon:</h4>
+                            <p>+90 532 324 22 63</p>
+                        </div>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12043.892029034443!2d29.0738537!3d41.003964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d3d4a8a6f01e62a!2zRU1SRSDEsExFVMSwxZ7EsE0!5e0!3m2!1str!2str!4v1668011809608!5m2!1str!2str"
+                            frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen="">
+                        </iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12043.892029034443!2d29.0738537!3d41.003964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d3d4a8a6f01e62a!2zRU1SRSDEsExFVMSwxZ7EsE0!5e0!3m2!1str!2str!4v1668011809608!5m2!1str!2str"
+                            frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen="">
+                        </iframe>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
 
 
-
-
-  
-    
-    
-
-    
 </body>
 
 </html>
