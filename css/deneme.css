@@ -33,6 +33,7 @@
 #search-app {
     width: 1450px;
     padding-left: 10%;
+    width: 100%;
 }
 
 #search-app .search-app-container {
