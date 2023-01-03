@@ -855,3 +855,20 @@ a {
 }
 
 
+
+#onlyJSyc{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    background: url(http://4.bp.blogspot.com/-b50XKMWz84U/W9RouwhqVII/AAAAAAAAR_U/qQFXBOiUuQUC9Rv_evE4S7P9_yZ1YzZDgCK4BGAYYCw/s1600/yukari.png) no-repeat;
+    cursor: pointer;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+
