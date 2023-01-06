@@ -561,6 +561,11 @@ nav ul.main-nav li.tab-link a.category-header {
     margin-left: 20%;
     
 }
+@media (max-width: 700px) {
+    .listem{
+        display: none;
+    }
+}
 
 ul {
     
