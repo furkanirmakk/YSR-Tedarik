@@ -1,78 +1,111 @@
 @media (min-width: 701px) {
-  .sidenav{
+  .sidenav {
     display: none;
   }
 }
 
-  @media (max-width: 700px) {
-  
-/* Fixed sidenav, full height */
-.sidenav {
-  margin-top: 4.5%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: white;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-.dropdown-btn {
-  
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  border: none;
-  background: none;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
-}
-/* Style the sidenav links and the dropdown button */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  border: none;
-  background: none;
-  width:100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
+@media (max-width: 700px) {
+
+  /* Fixed sidenav, full height */
+  .sidenav {
+    margin-top: 4.5%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .dropdown-btn {
+
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  /* On mouse-over */
+  .sidenav a:hover,
+  .dropdown-btn:hover {
+    color: black;
+  }
+
+  /* Main content */
+  .main {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: green;
+    color: white;
+  }
+
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
 }
 
-/* On mouse-over */
-.sidenav a:hover, .dropdown-btn:hover {
+
+.container{
+  margin-top: 5%;
+}
+.container a{
   color: black;
 }
-
-/* Main content */
-.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 20px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+.row{
+  margin-top: 2%;
 }
-
-/* Add an active class to the active dropdown button */
-.active {
-  background-color: green;
-  color: white;
+.button {
+  background-color: white;
+  text-align: center;
+  border: none;
+  color: white !important;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 120%;
+  cursor: pointer;
+  padding: 5% 10%; 
+  border-radius: 3%;
+  border: 3px solid #F29142;
+  
 }
-
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {
-  display: none;
-  background-color: #262626;
-  padding-left: 8px;
-}
-
-/* Optional: Style the caret down icon */
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
+.button:hover{
+  background-color: #F29142;
 }
