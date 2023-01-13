@@ -423,7 +423,9 @@ input[type=text] {
     width: 100%;
     height: 64px;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    box-shadow: 0 10px 6px -6px #777;
+    
 }
 
 .row {
@@ -561,6 +563,12 @@ nav ul.main-nav li.tab-link a.category-header {
     margin-left: 20%;
     
 }
+
+.kg_listem{
+    text-align:center;
+    text-align:justify;
+    margin-left: 40%;
+}
 @media (max-width: 700px) {
     .listem{
         display: none;
@@ -622,6 +630,29 @@ li.menu {
 .menu:hover .acilir-menu {
     display: block;
 }
+
+
+.kg_acilir_menu {
+    width: 10%;
+    display: none;
+    position:absolute;
+    background-color: white;
+    z-index: 4;
+}
+
+.kg_acilir_menu a {
+    display: block;
+    text-align: left;
+}
+
+.kg_acilir_menu a:hover {
+    color: black;
+}
+
+.menu:hover .kg_acilir_menu {
+    display: block;
+}
+
 
 .aktif {
     background-color: #FF9642;
